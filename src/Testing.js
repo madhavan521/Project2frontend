@@ -26,7 +26,7 @@ const ChatBot = () => {
     setPrompt("");
 
     try {
-      const genAI = new GoogleGenerativeAI("AIzaSyCcUykCqVzRZ3Xw0cW59bLbks9DnAbk3F8");
+      const genAI = new GoogleGenerativeAI("your api key");
       const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
       const result = await model.generateContent(prompt);

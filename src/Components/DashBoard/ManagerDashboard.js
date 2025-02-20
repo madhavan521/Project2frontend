@@ -1,6 +1,6 @@
 import React from "react";  
 import { Link } from "react-router-dom";  
-import { FaClipboardList,FaUserCircle,FaHome,FaUsers,FaBoxes, FaUtensils, FaUserPlus, FaListUl } from "react-icons/fa";  
+import { FaClipboardList,FaUserCircle,FaHome,FaUsers,FaBoxes,FaPlusCircle ,FaShoppingCart, FaHistory,FaUtensils, FaUserPlus, FaListUl } from "react-icons/fa";  
 
 const ManagerDashboard = () => {  
   const data = [  

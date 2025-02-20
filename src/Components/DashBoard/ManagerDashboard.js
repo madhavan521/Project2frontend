@@ -31,13 +31,13 @@ const ManagerDashboard = () => {
      {  
           name: "Add Food Products",  
           description: "Add new food products",  
-          icon: <FaPlusCircle size={50} color="#28a745" />,  
+          icon: <FaListUl size={50} color="#28a745" />,  
           link: "/createfood",  
         }, 
         {  
           name: "Purchase History",  
           description: "View the history of purchases made",  
-          icon: <FaHistory size={50} color="#17a2b8" />, 
+          icon: <FaListUl size={50} color="#17a2b8" />, 
           link: "/stockhistory",  
       }, 
     {  

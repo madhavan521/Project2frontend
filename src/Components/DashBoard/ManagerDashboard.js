@@ -30,19 +30,19 @@ const ManagerDashboard = () => {
     {  
       name: "Purchases",  
       description: "Manage all purchase ",  
-      icon: <FaShoppingCart size={50} color="#007bff" />,  
+      icon: <FaUsers size={50} color="#007bff" />,  
       link: "/addstock",  
     }, 
      {  
           name: "Add Food Products",  
           description: "Add new food products",  
-          icon: <FaPlusCircle size={50} color="#28a745" />,  
+          icon: <FaUsers size={50} color="#28a745" />,  
           link: "/createfood",  
         }, 
         {  
           name: "Purchase History",  
           description: "View the history of purchases made",  
-          icon: <FaHistory size={50} color="#17a2b8" />, 
+          icon: <FaUsers size={50} color="#17a2b8" />, 
           link: "/stockhistory",  
       },
 

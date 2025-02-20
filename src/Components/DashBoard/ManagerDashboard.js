@@ -27,12 +27,7 @@ const ManagerDashboard = () => {
       icon: <FaListUl size={50} color="#007bff" />,  
       link: "/vendor",  
     },   
-    {  
-      name: "Purchases",  
-      description: "Manage all purchase ",  
-      icon: <FaShoppingCart size={50} color="#007bff" />,  
-      link: "/addstock",  
-    }, 
+ 
      {  
           name: "Add Food Products",  
           description: "Add new food products",  

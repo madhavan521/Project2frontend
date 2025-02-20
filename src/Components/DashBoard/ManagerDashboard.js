@@ -27,19 +27,7 @@ const ManagerDashboard = () => {
       icon: <FaListUl size={50} color="#007bff" />,  
       link: "/vendor",  
     },   
- 
-     {  
-          name: "Add Food Products",  
-          description: "Add new food products",  
-          icon: <FaListUl size={50} color="#28a745" />,  
-          link: "/createfood",  
-        }, 
-        {  
-          name: "Purchase History",  
-          description: "View the history of purchases made",  
-          icon: <FaListUl size={50} color="#17a2b8" />, 
-          link: "/stockhistory",  
-      }, 
+
     {  
       name: "Staff List",  
       description: "View the list of all staff members",  

@@ -44,7 +44,7 @@ const ManagerDashboard = () => {
           description: "View the history of purchases made",  
           icon: <FaHistory size={50} color="#17a2b8" />, 
           link: "/stockhistory",  
-      } 
+      },
     // {  
     //   name: "Admin List",  
     //   description: "View the list of all Admins",  
